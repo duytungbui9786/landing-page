@@ -1,0 +1,114 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+   html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+body{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#page-content{
+    width: 100%;
+}
+.header{
+    background: red;
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+}
+
+.logo h2{
+    background-image: url(images/logo.gif);
+    height: 0;
+    padding-top: 50px;
+    margin: 20px 0 20px 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    width: 250px;
+}
+.society{
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+.society-bar{
+    display: flex;
+}
+.society .cart{
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    padding: 10px 15px 10px 50px;
+}
+.society .cart i{
+    background-image: url(images/cart.gif);
+    position: absolute;
+    width: 25px;
+    padding-top: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 15px;
+    top: 5px;
+}
+.society .user{
+    margin-top: 10px;
+}
+.society .cart{
+    margin: 0 20px 0 20px;
+}
+.society-bar .society-bar-item{
+    width: 33%;
+    margin: 0 5px;
+}
+
+.society-bar .society-bar-item div{
+    margin: 5px;
+    padding: 2px;
+}
+.society-bar .society-bar-item img{
+    object-fit: contain;
+    width: 40px;
+}
+.navigation .container{
+    background-color: #37b3df;
+    height: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.listmenu:hover .dropdown-menu{
+    display: block;
+}
